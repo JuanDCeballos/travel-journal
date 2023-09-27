@@ -10,16 +10,23 @@ const Card = () => {
       </div>
       <div className='info-container'>
         <div className='location-container'>
-          <p>Japan</p>
-          <a>View on Google Maps</a>
+          <p className='location'>
+            <img src='mark.png' /> JAPAN
+          </p>
+          <a
+            className='google-link'
+            href='https://goo.gl/maps/1DGM5WrWnATgkSNB8'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            View on Google Maps
+          </a>
         </div>
         <div className='title-container'>
           <h1 className='title'>Mount Fuji</h1>
         </div>
         <div className='dates-container'>
-          <p className='start-date'>12 Jan, 2021</p>
-          <p>-</p>
-          <p className='end-date'>24 Jan, 2021</p>
+          <p className='dates'>12 Jan, 2021 - 24 Jan, 2021</p>
         </div>
         <div className='description-container'>
           <p className='description'>
