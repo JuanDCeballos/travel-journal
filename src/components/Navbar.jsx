@@ -1,7 +1,10 @@
 const Navbar = () => {
   return (
     <nav className='navbar'>
-      <p>my travel journal</p>
+      <div className='app-title'>
+        <img src='world.png' />
+        <p>my travel journal</p>
+      </div>
     </nav>
   );
 };
